@@ -31,7 +31,7 @@ jobs:
         run: python -m pip install --upgrade pip pytest build
 
       - name: Run Python unit tests
-        run: pytest
+        run: python -m pytest
 
       - name: Run JavaScript unit tests
         run: node --test tests/jpy_currency_fix_test.mjs
