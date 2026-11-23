@@ -2,7 +2,7 @@
 name = 'indico-plugin-jpy-currency-fix'
 description = 'Hide trailing .00 decimals for JPY (and configurable zero-decimal currencies) in Indico registration forms, payment transaction details, and registration stats.'
 readme = 'README.md'
-version = '3.3.0'
+version = '0.1.0'
 license = 'MIT'
 classifiers = [
     'Environment :: Plugins',
