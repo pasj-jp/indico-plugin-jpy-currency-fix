@@ -1,0 +1,3 @@
+<script src="{{ url_for_plugin('jpy_currency_fix.static', filename='js/jpy_currency_fix.js', v=version) }}"
+        data-currencies="{{ currencies | tojson | forceescape }}"
+        data-preserve-nonzero-decimals="{{ preserve_nonzero_decimals | tojson | forceescape }}"></script>
